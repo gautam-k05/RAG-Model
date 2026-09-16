@@ -54,8 +54,4 @@ answer = rag_simple("What is a word vector?", rag_retriever, llm)
 
 Returns an answer with cited source PDFs and page numbers.
 
-## Possible Improvements
 
-- Swap notebook cells into a proper Python package with a CLI or API endpoint
-- Add a lightweight UI (Streamlit/Gradio) for interactive querying
-- Cache embeddings to avoid recomputation on re-runs
